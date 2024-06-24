@@ -196,7 +196,8 @@ function M.buf_kill(kill_command, bufnr, force)
         end)
       elseif choice == 2 then
         force = true
-      else return
+      else
+        return
       end
     elseif api.nvim_buf_get_option(bufnr, "buftype") == "terminal" then
       choice = fn.confirm(fmt([[Close "%s"?]], bufname), "&Yes\n&No\n&Cancel")
