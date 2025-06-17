@@ -1,6 +1,6 @@
 {
     "Comment.nvim": {
-        "commit": "0236521"
+        "commit": "e30b7f2"
     },
     "LuaSnip": {
         "commit": "1def353"
@@ -114,13 +114,13 @@
         "commit": "9ef21b2"
     },
     "telescope.nvim": {
-        "commit": "d829aa6"
+        "commit": "415af52"
     },
     "toggleterm.nvim": {
         "commit": "fee58a0"
     },
     "tokyonight.nvim": {
-        "commit": "45d22cf"
+        "commit": "dca4adb"
     },
     "vim-illuminate": {
         "commit": "5eeb795"
